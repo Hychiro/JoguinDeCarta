@@ -1,0 +1,226 @@
+.campo {
+    display: flex;
+}
+
+.tabuleiro {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.campoComputador,
+.campoVazio,
+.campoJogador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slot {
+    width: 200px;
+    height: 215px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkred;
+    color: white;
+}
+
+
+.slot.cartas-vazia{
+    width: 200px;
+    height: 75px;
+}
+
+.cartas-computador {
+    background-color: darkgoldenrod;
+}
+
+.cartas_vazia {
+    background-color: lightgrey;
+}
+
+.cartas-jogador {
+    background-color: darkblue;
+    align-items: center;
+}
+
+.campoCartaBaixada1 {
+    background-color: darkblue;
+    height: 150px;
+    width: 80px;
+    align-items: center;
+    display:inline-table;
+    
+}
+
+.campoCartaBaixada2 {
+    background-color: darkblue;
+    height: 150px;
+    width: 80px;
+    align-items: center;
+    display:inline-table;
+    
+}
+
+.campoCartaBaixada3 {
+    background-color: darkgoldenrod;
+    height: 150px;
+    width: 80px;
+    align-items: center;
+    display:inline-table;
+    
+}
+
+.campoCartaBaixada4 {
+    background-color: darkgoldenrod;
+    height: 150px;
+    width: 80px;
+    align-items: center;
+    display:inline-table;
+    
+}
+
+.cartaBaixada {
+    height: 85px;
+    width: 60px;
+    background-color: burlywood;
+    border: 2px solid black;
+    margin: 5px;
+    display:grid;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.maoJogador {
+    width: 626px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:dimgrey;
+}
+
+.cartaNaMao {
+    background-color:dimgrey;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cartaF {
+    width: 50px;
+    height: 75px;
+    background-color: rgb(200, 0, 0);
+    text-align:center;
+    
+}
+
+.cartaA {
+    width: 50px;
+    height: 75px;
+    background-color: blue;
+    text-align:center;
+}
+
+.cartaT {
+    width: 50px;
+    height: 75px;
+    background-color: maroon;
+    text-align:center;
+}
+
+.cartaAr {
+    width: 50px;
+    height: 75px;
+    background-color: lightblue ;
+    text-align:center;
+}
+
+.image {
+    width: 50px;
+    height: 75px;
+
+}
+
+.passaRound {
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: lightgreen;
+}
+
+.tabela {
+    width: 600px;
+    height: 217px;
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    background-color: blue;
+    border: 3px black;
+    background-color: white;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.tabela2{
+    width: 120px;
+    height: 100%;
+    background-color: white;
+}
+
+p>span.campo1J,p>span.campo2J, p>span.campo3J{
+    color:darkblue ;
+}
+
+p>span.campo1C, p>span.campo2C, p>span.campo3C{
+    color:darkgoldenrod ;
+}
+
+.rodada {
+    width: 200px;
+    height: 75px;
+    background-color: darkred;
+}
+
+.energia {
+    width: 200px;
+    height: 75px;
+    background-color: lightgreen;
+}
+
+.image1,.image2,.image3,.image4 {
+    width: 120px;
+    height: 70%;
+}
+
+.Energia {
+    background-color: lightgreen;
+    width: 200px;
+    height: 75px;
+    margin-left: -200px;
+    margin-top: 25px;   
+    text-align: center;
+}
+
+.Rodadas {
+    background-color: brown;
+    width: 200px;
+    height: 75px;
+    margin-left: -200px;
+    margin-top: 40px;
+    text-align: center;
+}
+
